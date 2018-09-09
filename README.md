@@ -20,7 +20,7 @@ token_middleware会更加token_session的状态自动保存所做的修改。
 
 ```
 def insert_session_view(request):  
-    request.token_session.create()
+    request.token_session.create_token()
     ...
     
     return JsonResponse({'token': request.token_session.token})
