@@ -1,0 +1,2 @@
+# django_token_session
+像使用Django web session一样使用token对客户端进行会话管理
